@@ -25,11 +25,17 @@ Users should be able to:
   - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Looks like this is not an email"*
 
 ### Screenshot
+Mobile
+![mobile-design](https://user-images.githubusercontent.com/79846013/222875695-552f4726-12b4-4739-a4f3-8558f3311aea.jpg)
+
+Desktop
+![desktop-design](https://user-images.githubusercontent.com/79846013/222875707-495d3045-c4bc-4854-a14d-d02b29b7fe3a.jpg)
+
+Active state
+![Screenshot (115)](https://user-images.githubusercontent.com/79846013/222875772-43eb89be-f06d-4a4f-aea9-70861bbb79b3.png)
 
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [https://curious-smakager-999f1d.netlify.app/]
 
 ## My process
