@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    background-image: url(./images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+article{
+    color: white;
+    padding: 0 .7rem;
+    margin-top: 3rem;
+    
+}
+
+article h1{
+    font-size: 2rem;
+}
+
+article p{
+    margin-top: 1.2rem;
+    opacity: .8;
+}
+
+.form{
+    max-width: 80%;
+    margin-top: 2rem;
+    /* align-content: center; */
+}
+
+.top{
+    background-color: hsl(248, 32%, 49%);
+    padding: .7rem 3.5rem;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+}
+
+.top span{
+    opacity: .8;
+}
+form {
+    margin: 1.5rem 0 3rem 0;
+    background-color: white;
+    padding-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+}
+
+input{
+    width: 80%;
+    padding: .8rem .3rem;
+    border-radius: 10px;
+    border: 1px solid hsl(246, 25%, 77%);
+}
+
+
+button{
+    width: 80%;
+    background-color: hsl(154, 59%, 51%);
+    padding: .8rem .3rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    opacity: .8;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+form p {
+    padding: 1rem 0;
+    font-size: .6rem;
+    color: hsl(249, 10%, 26%);
+    margin: 0 4rem;
+}
+
+form span{
+    color: hsl(0, 100%, 74%);
+}
+
+input.error {
+    background-image: url("./images/icon-error.svg");
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    border-color: #ff0000;
+}
+
+
+div .error{
+    font-size: 10px;
+    color: #ff0000;
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .container{
+        flex-direction: row;
+        justify-content: center;
+        background-image: url("./images/bg-intro-desktop.png");
+    }
+    
+    article{
+        width: 50%;
+        text-align: start;
+    }
+
+    article h1{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+}
